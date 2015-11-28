@@ -22,7 +22,7 @@
     "imgur": "^0.1.7",
     "wordwrap": "^1.0.0"
   },
-  "engine": {
+  "engines": {
     "node": "v4.2.2"
   }
 }

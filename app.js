@@ -54,7 +54,7 @@ var data = {
 var internals = {};
 
 internals.get = function (request, reply) {
-  if (request.query.text !== '') {
+  if (request.query.hasOwnProperty('text')) {
     var text = request.query.text;
 
     data.middle.text = wrap(text);

@@ -1,0 +1,25 @@
+{
+  "name": "sne",
+  "version": "0.0.1",
+  "description": "API to generate images from www.sernicaes.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodenica/sne.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodenica/sne/issues"
+  },
+  "homepage": "https://github.com/nodenica/sne#readme",
+  "dependencies": {
+    "gm": "^1.21.1",
+    "hapi": "^11.1.2",
+    "imgur": "^0.1.7",
+    "wordwrap": "^1.0.0"
+  }
+}
